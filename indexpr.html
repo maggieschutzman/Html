@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>Log Name</title>
+    <script lang="javascript">
+    function log() {
+        var firstname = document.getElementById("firstname").value;
+        var lastname = document.getElementById("lastname").value;
+        console.log(firstname, lastname);
+    }
+    </script>
+    </head>
+    <body>
+    <table>
+    <tr>
+        <td>First Name:</td>
+        <td> <input type="text" id="firstname"></td>
+    </tr>
+       <tr>
+        <td>Last Name:</td>
+        <td><input type="text" id="lastname"></td>
+    </tr>
+    </table>
+    <button OnClick="log()">Log the Name</button>
+    </body>
+    </html>
