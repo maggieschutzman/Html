@@ -1,4 +1,5 @@
 var nbr = 0;
+
 function display() {
     document.getElementById("theNbr").value = nbr;
    }
